@@ -104,7 +104,7 @@ class _NotesViewState extends State<NotesView> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Navigate to the screen where users can create a new note
+          // Navigate to the screen where users can create a new not
           Navigator.of(context).pushNamed(createOrUpdateNoteRoute);
         },
         child: const Icon(Icons.add),
